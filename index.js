@@ -13,7 +13,7 @@ function hidediv()
     document.getElementById("loadvideo").style.display="none";
   };
 
-setTimeout("hidediv()",9000);
+setTimeout("hidediv()",5000);
 //this is for parallax effect;
 const parallax=document.getElementById("parallax");
 window.addEventListener("scroll",function(){
