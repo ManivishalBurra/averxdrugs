@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body
+{
+background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+p
+{
+  margin:0;
+}
+.table-box
+{
+    margin: 120px auto;
+}
+#symbols
+{
+  margin-left: 25px;
+}
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: black;
+    font-size: 18px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+.table-head{
+    background: #71cfbd;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+.table-head .table-cell{
+    border-right: none;
+}
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
+}
+.last-cell{
+    border-right: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.contact {
+  background-color: #71cfbd;
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+}
+
+.doghouse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center
+}
+
+.contactitems {
+  position: relative;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+
+.contact h2 {
+  margin: 0 0 0 100px;
+  padding-top: 50px;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.contactgif {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50% 50% 0 0
+}
+
+.dog {
+  font-size: 3vw;
+  color: #373a40;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contactgif img {
+  position: relative;
+  width: 180%;
+  height: auto;
+  right: 40%
+}
+
+.glinks {
+  display: flex;
+  flex-direction: column
+}
+
+.glinks a {
+  margin: 10px;
+  text-decoration: none;
+  color: #373a40;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Nunito Sans', sans-serif
+}
+
+.glinks .fas {
+  font-size: 20px
+}
+#cred
+{
+  background: #71cfbd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.credits p
+{
+  font-size: 15px;
+  margin: 0;
+
+}
+.credits a
+{
+  color: #000;
+  text-transform: uppercase;
+  font-size: 88%;
+  font-weight: 700;
+  line-height: 40px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.credits a:hover
+{
+      color: #0056b3;
+}
+@media only screen and (min-width:100px) and (max-width:700px) {
+  .maps
+  {
+    display: none;
+  }
+
+  .anchortags {
+    display: none
+  }
+
+
+  .contact a {
+    font-size: 15px;
+    text-transform: uppercase;
+
+  }
+}
+@media  only screen and (min-width:100px) and (max-width:415px) {
+
+  .aboutcompany
+  {
+    min-height: 872px;
+    height: 100vh;
+  }
+  .aboutcompany h1
+  {
+      font-size: 8vw;
+  }
+  .aboutcompany p,h2
+  {
+      font-size: 4vw;
+  }
+  .companypic
+  {
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .table-row {
+    font-size: 14px;
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: #000
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, .3);
+  border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: outset 0 0 6px 20px rgba(0, 0, 0, .3);
+  background: #d6e0f0
+}

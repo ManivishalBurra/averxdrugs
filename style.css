@@ -1,0 +1,1049 @@
+html {
+  scroll-behavior: smooth;
+  width: 100vw;
+  height: 100vh
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh
+}
+
+a,
+h1,
+h2,
+h3,
+p {
+  font-family: 'Nunito Sans', sans-serif
+}
+
+h1 {
+  color: #f56a79;
+  margin: 0
+}
+
+h2 {
+  font-size: 55px;
+  color: #373a40;
+  margin: 10px 0
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: #000
+}
+
+p {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px
+}
+.boo h1 {
+  font-size: 43px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 88%;
+  font-weight: 700
+}
+#loading
+{
+  transition: 1s;
+  height: 100vh;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+
+}
+#loadingPage
+{
+  transition: 1s;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+
+}
+.pills
+{transition: 1s;
+  position:absolute;
+  z-index: 10000;
+  width: 50%;
+}
+#video {
+  height: 100vh;
+  background-image: url('images/chimney-2823866_1920.jpg');
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-repeat: no-repeat
+}
+
+.one p {
+  color: #000
+}
+
+#slide2 {
+  height: 100vh;
+  background-image: url(images/veterinarian-doctor-ready-give-medicine-shot-pig-farm1.webp);
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  image-rendering: auto
+}
+
+.slide2write {
+  position: relative;
+  top: 40%;
+  right: 20%;
+  font-size: 25px
+}
+
+.slide2write h1,
+.slide2write p {
+  padding: 0 23%;
+  color: #fff
+}
+
+.slide2write p {
+  color: #fff
+}
+
+#slide3 {
+  height: 100vh;
+  background-image: url(images/happy-girl-beagle-puppies-gray.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  image-rendering: auto
+}
+
+.slide3write {
+  position: relative;
+  top: 39vh;
+  right: 25%;
+  font-size: 25px
+}
+
+.slide3write h1,
+.slide3write p {
+  padding: 0 30vw
+}
+
+.slide3write {
+  color: #000
+}
+
+.Aboutus {
+  width: 100%;
+  height: 700px;
+  background-color: #dfdeb3;
+  display: block;
+  position: relative
+}
+
+.aboutTitle {
+  position: absolute;
+  padding: 20px 100px;
+  margin-top: 40px
+}
+
+.aboutTitle h1 {
+  color: #132743;
+  font-size: 35px
+}
+
+.writeups {
+  position: absolute;
+  margin: 160px 0 0 100px;
+  right: 6%;
+  width: 68%;
+  height: 472px;
+  background-color: none;
+  display: block;
+  border-radius: 10px
+}
+
+
+
+.writeAboutus {
+  padding: 100px 18% 100px 28%;
+  position: relative;
+  bottom: 50px
+}
+
+.writeAboutus h1 {
+  font-size: 20px;
+  color: #d7385e;
+  font-weight: bold;
+}
+
+.writeAboutus h2 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.writeAboutus p {
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 15px
+}
+
+.middle {
+  position: absolute;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  left: 35%
+}
+
+.btn {
+  position: relative;
+  left: 19%;
+  display: block;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #ff7675;
+  padding: 14px 60px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease
+}
+
+.btn::before {
+  background: #ff7675;
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  transition: all .6s ease
+}
+
+.btn3::before {
+  width: 0;
+  height: 0;
+  transform: translate(-50%, -50%) rotate(90deg)
+}
+
+.btn3:hover::before {
+  height: 400px;
+  width: 400px;
+}
+.btn:hover{
+  transition: 0.8s;
+  color: white;
+}
+
+.aboutuspics {
+  position: absolute;
+  overflow: hidden;
+  top: 150px;
+  left: 10%;
+  width: 30%;
+  height: 480px;
+  background-color: #000;
+  display: block;
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+  border-radius: 8px;
+  background-image: url(images/spoon4.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.aboutuspics img {
+  position: relative;
+  right: 100px;
+  bottom: 50px;
+  width: 150%
+}
+
+.values {
+  width: 100%;
+  height: 700px;
+  background-color: #71cfbd;
+  display: block;
+  position: relative
+}
+
+.valuewrites {
+  position: absolute;
+  margin: 120px 0 0 80px;
+  width: 68%;
+  height: 472px;
+  background-color: none;
+  display: block;
+  border-radius: 10px
+}
+
+.valuepics {
+  position: absolute;
+  overflow: hidden;
+  top: 18%;
+  right: 8%;
+  width: 30%;
+  height: 65%;
+  background-color: #000;
+  display: block;
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+  border-radius: 8px;
+  background-image: url(images/people-meeting-seminar-office-concept.webp);
+  background-size: cover
+}
+
+.valuepics img {
+  position: relative;
+  right: 100px
+}
+
+.valuewriteup {
+  padding: 100px 18% 100px 12%
+}
+
+.easteregg {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background:none;
+  background-color:none;
+}
+
+.easteregg .main-content {
+  width: 100%;
+  height: 100%;
+  background:none;
+  background-color:none;
+}
+
+.easteregg .main-content img {
+  width: 150%
+}
+
+.easteregg .overlay-content {
+  width: 100%;
+  height: 100%;
+  background-color: #ffeac9;
+  color: #080808;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  transition: .6s;
+  top: 0;
+  left: 100%;
+  opacity: .8
+}
+
+.easteregg:hover .overlay-content {
+  transform: translateX(-100%)
+}
+
+.easteregg .overlay-content p {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 2rem;
+  letter-spacing: 1px;
+  line-height: 1.75rem
+}
+
+.easteregg .overlay-content p span {
+  display: block;
+  letter-spacing: normal;
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 1.25rem
+}
+
+@media (max-width:576px) {
+  .easteregg {
+    width: 300px;
+    height: 450px
+  }
+}
+
+.rect1 {
+  width: 100%
+}
+
+.rect1 h1 {
+  padding: 50px 0 0 100px;
+  color: #000;
+  font-size: 30px
+}
+
+#parallax {
+  height: 54rem;
+  background-image: url(images/backpicture.jpg);
+  background-attachment: fixed;
+  background-size: cover
+}
+
+.all_product {
+  position: relative;
+  width: 100%
+}
+
+.product {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px
+}
+
+.drugs_list {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2%
+}
+
+.everyproduct {
+  transition: .5s;
+  overflow: hidden;
+  width: 12rem;
+  height: 12rem;
+  margin: 0 80px;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, .8)
+}
+
+.everyproduct:hover {
+  transition: .5s;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 10px
+}
+
+.product1 {
+  background-color: #3ebdb7
+}
+
+.product2 {
+  background-color: #3ebdb7
+}
+
+.product3 {
+  background-color: #3ebdb7
+}
+
+.easteregg .pro {
+  width: 100%;
+  height: 100%;
+  background-color: #3ebdb7;
+  color: #080808;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  transition: 1.3s;
+  top: 0;
+  left: 100%;
+  opacity: .8
+}
+
+.andmore {
+  text-align: center
+}
+
+.andmore h1 {
+  display: block;
+  margin: 60px 0 0 0;
+  padding: 0
+}
+
+.viewproducts {
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  background-color: #f5b461;
+  border: none;
+  margin: 55px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+  cursor: pointer
+}
+
+.product_icon {
+  position: absolute;
+  width: 5%
+}
+
+.companyReviews {
+  width: 100%;
+  height: 788px;
+  background-color: #fbfde1;
+  display: block;
+  position: relative
+}
+
+.Reviewstitle {
+  position: absolute;
+  padding: 20px 100px
+}
+
+.Reviewstitle h1 {
+  color: #132743;
+  font-size: 35px;
+  font-weight: bold;
+}
+#carouselExampleIndicators, .carousel-indicators
+{
+  height: 95%;
+
+}
+.carousel-control-next,.carousel-indicators,.carousel-control-prev
+{
+  filter: invert(1);
+}
+.carousel-control-prev,.carousel-control-next
+{
+  top: 10px;
+}
+.carousel-control-next
+{
+}
+.carousel-inner
+{
+  height: 100%;
+  position: absolute;
+  top: 10px;
+}
+.reviews {
+  position: absolute;
+  margin: 145px 0 0 100px;
+  width: 70%;
+  height: 552px;
+  background-color: #dfdeb3;
+  display: block;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.description {
+  padding: 100px 100px 100px 100px;
+}
+
+.description h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  color: #d7385e;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.description h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 40px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.description p {
+  font-family: Sacramento, cursive;
+
+  font-size: 40px;
+  line-height: 55px;
+}
+
+.mySlides {
+  display: none
+}
+
+.picture {
+  position: absolute;
+  overflow: hidden;
+  top: 80px;
+  right: 50px;
+  width: 30%;
+  height: 300px;
+  background-color: #000;
+  display: block;
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+  border-radius: 8px;
+  background-image: url(images/laurus-labs-strikes-gold-by-moving-up-the-value-chain-but-theres-a-steeper-climb-ahead-.webp);
+  background-size: cover
+}
+
+.picture img {
+  width: 100%
+}
+
+.contact {
+  background-color: #71cfbd;
+  width: 100%;
+  height: 550px;
+  overflow: hidden
+}
+
+.doghouse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center
+}
+
+.contactitems {
+  position: relative;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+
+.contact h2 {
+  margin: 0 0 0 100px;
+  padding-top: 50px;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.contactgif {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50% 50% 0 0
+}
+
+.dog {
+  font-size: 3vw;
+  color: #373a40
+}
+
+.contactgif img {
+  position: relative;
+  width: 180%;
+  height: auto;
+  right: 40%
+}
+
+.glinks {
+  display: flex;
+  flex-direction: column
+}
+
+.glinks a {
+  margin: 10px;
+  text-decoration: none;
+  color: #373a40;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.glinks .fas {
+  font-size: 20px
+}
+#cred
+{
+  background: #71cfbd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.credits p
+{
+  font-size: 15px;
+  margin: 0;
+}
+
+
+@media(max-width:900px) {
+  #slide3 {
+    background-position: center
+  }
+
+  .everyproduct {
+    transition: .5s;
+    overflow: hidden;
+    width: 25vw;
+    height: 25vw;
+    margin: 0 80px;
+    border-radius: 100%;
+    background-color: #3ebdb7
+  }
+
+  .everyproduct:hover {
+    transition: .5s;
+    width: 45vw;
+    height: 45vw;
+    border-radius: 10px
+  }
+}
+
+@media(max-width:788px) {
+.boo p
+{
+  font-size: 24px;
+}
+.boo h1
+{
+  font-size: 35px;
+}
+  nav {
+    min-height: 10vh
+  }
+
+}
+
+@media(max-width:1230px) {
+  .aboutuspics {
+    width: 30%;
+    height: 380px
+  }
+
+  .valuepics {
+    height: 380px
+  }
+}
+
+@media(max-width:1080px) and (min-width:450px) {
+ #parallax
+ {
+   background-attachment: scroll;
+   background-size: contain;
+   height: 50rem;
+   background-color: black;
+ }
+  #slide3 {
+    background-position: center
+  }
+
+  .writeups {
+    margin-top: 17vh;
+    margin-left: 0;
+    padding-left: 61px;
+    left: 20%;
+    right: 0;
+    width: 83%;
+  }
+
+  .writeAboutus {
+    padding: 12% 12% 12% 24%
+  }
+
+  .valuewriteup {
+    padding: 100px 18% 100px 12%
+  }
+
+  .valuewrites {
+    margin: 120px 0 0 50px
+  }
+
+  #slide2,
+  #slide3 {
+    display: none;
+  }
+}
+.nav-toggle{
+  display: none;
+}
+
+@media only screen and (min-width:100px) and (max-width:700px) {
+
+ #parallax
+ {
+   background-attachment: scroll;
+   background-size: contain;
+   height: 50rem;
+   background-color: black;
+ }
+  .maps
+  {
+    display: none;
+  }
+  .nav-toggle {
+    display:block;
+    visibility: visible;
+    position: relative;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid transparent;
+    margin: 7px 0;
+    top: 50%;
+
+  }
+
+  .nav-toggle:focus {
+    outline-width: 0;
+  }
+
+  .nav-toggle [class*='bar-'] {
+    background: #E8AD1A;
+    display: block;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .2s ease all;
+            transition: .2s ease all;
+
+     border-radius: 2px;
+      height: 2px;
+      width: 25px;
+      margin-bottom: 4px;
+
+  }
+
+  .nav-toggle .bar-bot {
+    margin-bottom: 0;
+  }
+
+  .opened .bar-top {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 15% 15%;
+            transform-origin: 15% 15%;
+  }
+  .opened .bar-mid {
+    opacity: 0;
+  }
+  .opened .bar-bot {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 15% 95%;
+            transform-origin: 15% 95%;
+  }
+  #video {
+    height: 100vh;
+    background-attachment: scroll
+  }
+
+  #slide2,
+  #slide3 {
+    display: none
+  }
+
+  .anchortags {
+    display: none
+  }
+
+  .boo h1 {
+    font-size: 8vw;
+    padding-right: 0;
+  }
+
+  .boo p {
+    padding-right: 0;
+    font-size: 4vw
+  }
+
+  .aboutuspics,
+  .valuepics {
+    background-position: center;
+    top: 21vh;
+    width: 35vw;
+    height: 28vh
+  }
+
+  .valuewriteup,
+  .writeAboutus {
+    padding-top: 10vh;
+    padding-bottom: 5vh
+  }
+
+  .valuewriteup {
+    padding-right: 16vw;
+    padding-left: 0
+  }
+
+  .main-content img {
+    position: relative
+  }
+  .Reviewstitle
+  {
+    padding-left: 20px;
+  }
+ .cuddle
+ {
+   top:95%;
+   left: 40%
+ }
+  .btn {
+    font-size: 1.8vw;
+    padding: 1.8vw 9vw;
+    top:0;
+  }
+
+  .all_product h1 {
+    padding: 5vw 0 0 10vw;
+    color: #000;
+    font-size: 4.4vw
+  }
+
+  .andmore h1 {
+    padding: 0
+  }
+
+  .viewproducts {
+    border-radius: 5px;
+    width: 25vw;
+    height: 5vh;
+    margin: 55px;
+    font-size: 10px
+  }
+  .writeups
+  {
+    margin-top: 20%;
+    padding-left: 80px;
+    width: 77%;
+  }
+  .writeAboutus h1 {
+    font-size: 29px
+  }
+
+  .writeAboutus p {
+    font-size: 18px
+  }
+
+  .writeAboutus h2 {
+    font-size: 35px;
+    margin: 0
+  }
+
+  .drugs_list {
+    padding: 19px
+  }
+
+  .andmore h1,
+  .drugs_list h3 {
+    font-size: 4vw
+  }
+
+  .product_icon {
+    width: 10%
+  }
+
+  .Reviewstitle h1 {
+    font-size: 25px
+  }
+
+  .Reviewstitle h1 {
+    font-size: 30px;
+    text-align: center
+  }
+
+  .description {
+    padding: 0
+  }
+
+  .description h2 {
+    font-size: 27px;
+
+  }
+
+  .reviews {
+    background-color: none;
+    background: 0 0;
+    margin-left: 20%
+  }
+
+  .picture {
+    width: 50%;
+    height: 150px;
+  }
+
+
+  .companyReviews {
+    height: 700px
+  }
+
+  #navbar {
+    padding: 0
+  }
+
+  .averxlogo {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 1px
+  }
+
+  .averxwrite {
+    width: 60px;
+    height: auto
+  }
+  .anchortags {
+    display: none
+  }
+
+  .contact a {
+    font-size: 15px
+  }
+}
+@media only screen and (max-width:500px) and (min-width:100px)
+{
+  #parallax
+ {
+   background-attachment: scroll;
+   background-size: contain;
+   height: 50rem;
+   background-color: black;
+ }
+  .rect1
+  {
+    height: 75vh;
+  }
+  .valuewrites
+  {
+    margin-left: 40px;
+  }
+  .writeAboutus
+  {
+    top:0;
+  }
+  .writeAboutus h1 {
+    font-size: 19px
+  }
+
+  .writeAboutus p {
+    font-size: 11px
+  }
+
+  .writeAboutus h2 {
+    font-size: 13px;
+    margin: 0
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: #000
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, .3);
+  border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: outset 0 0 6px 20px rgba(0, 0, 0, .3);
+  background: #d6e0f0
+}

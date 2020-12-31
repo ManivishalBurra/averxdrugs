@@ -1,0 +1,312 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+.aboutcompany
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 872px;
+  height: 100vh;
+  background: linear-gradient(to right, #37b4cc 0%,#5543ca 100%);
+}
+#video {
+  height: 100vh;
+  background-image: url('images/chimney-2823866_1920.jpg');
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-repeat: no-repeat
+}
+.boo h1 {
+  font-size: 3vw;
+  font-weight: bold;
+  color: #f56a79;
+}
+@media only screen and (min-width:100px) and (max-width:700px)
+{
+#video {
+  height: 100vh;
+  background-attachment: scroll
+}
+.boo h1 {
+  font-size: 8vw;
+  padding-right: 0;
+}
+
+.boo p {
+  padding-right: 0;
+  font-size: 4vw
+}
+
+}
+.slide3write {
+  position: relative;
+  top: 39vh;
+  right: 25%;
+  font-size: 25px
+}
+
+.slide3write h1,
+.slide3write p {
+  padding: 0 30vw
+}
+
+.slide3write {
+  color: #000
+}
+.one p {
+  color: #000
+}
+.companypic
+{
+  background-image: url('partners/images/factory-1813504_1920.jpg');
+  min-height: 872px;
+  height: 100vh;
+  background-size: cover;
+}
+.partner1
+{
+  background-color: red;
+  height: 85vh;
+}
+.partner2
+{
+  background-color: blue;
+  height: 85vh;
+}
+.partner3
+{
+  background-color: black;
+  height: 85vh;
+}
+.partner4
+{
+  background-color: white;
+  height: 85vh;
+}
+.get_in_touch
+{
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+  box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+  padding:30px;
+
+}
+.get_in_touch .title
+{
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 3rem;
+  line-height: 48px;
+  padding-bottom: 20px;
+  color:#5543ca;
+  background: linear-gradient(to right, #f4524d 0%,#5543ca 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.contact-form .form-field
+{
+  position:relative;
+  margin: 32px 0;
+}
+.contact-form .input-text
+{
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text:focus.not-empty + .label{
+  transform: translateY(-24px);
+}
+.contact-form .input-text:focus
+{
+  outline:none;
+}
+.contact-form .label{
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size:18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #5543ca;
+  cursor:text;
+  transition: transform 0.2s ease-in-out;
+}
+.contact-form .submit-btn{
+  display: inline-block;
+  background-image: linear-gradient(125deg,#a72879,#064497);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border:none;
+  width: 200px;
+  cursor: pointer;
+}
+.contact {
+  background-color: #71cfbd;
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+}
+
+.doghouse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center
+}
+
+.contactitems {
+  position: relative;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+
+.contact h2 {
+  margin: 0 0 0 100px;
+  padding-top: 50px;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.contactgif {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50% 50% 0 0
+}
+
+.dog {
+  font-size: 3vw;
+  color: #373a40;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contactgif img {
+  position: relative;
+  width: 180%;
+  height: auto;
+  right: 40%
+}
+
+.glinks {
+  display: flex;
+  flex-direction: column
+}
+
+.glinks a {
+  margin: 10px;
+  text-decoration: none;
+  color: #373a40;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Nunito Sans', sans-serif
+}
+
+.glinks .fas {
+  font-size: 20px
+}
+#cred
+{
+  background: #71cfbd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.credits p
+{
+  font-size: 15px;
+  margin: 0;
+
+}
+.credits a
+{
+  color: #000;
+  text-transform: uppercase;
+  font-size: 88%;
+  font-weight: 700;
+  line-height: 40px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.credits a:hover
+{
+      color: #0056b3;
+}
+@media only screen and (min-width:100px) and (max-width:700px) {
+  .maps
+  {
+    display: none;
+  }
+
+  .anchortags {
+    display: none
+  }
+
+
+  .contact a {
+    font-size: 15px;
+    text-transform: uppercase;
+
+  }
+}
+@media  only screen and (min-width:100px) and (max-width:415px) {
+
+  .aboutcompany
+  {
+    min-height: 872px;
+    height: 100vh;
+  }
+  .aboutcompany h1
+  {
+      font-size: 8vw;
+  }
+  .aboutcompany p,h2
+  {
+      font-size: 4vw;
+  }
+  .companypic
+  {
+    height: 100vh;
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: #000
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, .3);
+  border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: outset 0 0 6px 20px rgba(0, 0, 0, .3);
+  background: #d6e0f0
+}
