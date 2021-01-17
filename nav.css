@@ -13,6 +13,14 @@
   font-weight: bold;
   font-size: 88%;
 }
+#navbarSupportedContent
+{
+  margin-right: 65px;
+}
+#navigate_bar .gymbal
+{transition: 1s;
+  margin-left: 45px;
+}
 @supports ((-webkit-backdrop-filter:blur(2em)) or (backdrop-filter:blur(2em))) {
   .backdrop-blur {
     transition: 0.5s;
@@ -45,7 +53,10 @@
   transform-origin: left;
   height: 3px
 }
-
+#link-items .HOME
+{
+ color: orange;
+}
 #symbols {
   line-height: 30px;
   font-size: 110%;
@@ -72,6 +83,16 @@
   margin-right: 40px;
   transition: 1s;
   font-size: 17px;
+}
+#logo
+{
+  margin-right: 0;
+  margin-left: 65px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  padding-bottom:0;
 }
 #logo .imagext {
   transition: .8s;

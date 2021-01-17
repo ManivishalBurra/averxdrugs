@@ -5,27 +5,30 @@ window.addEventListener("scroll",function(){
 
   if(scrolled>=50)
   {
-   $(".navlinks").css("color","black");
+  
    document.querySelector("nav").classList.add("backdrop-blur");
+
    document.querySelectorAll("img")[0].classList.add("imagext");
    document.querySelectorAll("img")[1].classList.add("imagetext");
    document.querySelectorAll("ul")[1].classList.add("symba");
-   document.querySelectorAll("a")[4].classList.add("symbal");
+   document.querySelectorAll("a")[0].classList.add("gymbal");
    document.querySelectorAll("a")[5].classList.add("symbal");
-   document.querySelectorAll("a")[4].innerHTML='<i class="fas fa-phone-alt"></i>';
-   document.querySelectorAll("a")[5].innerHTML='<i class="far fa-envelope"></i>';
+   document.querySelectorAll("a")[6].classList.add("symbal");
+   document.querySelectorAll("a")[5].innerHTML='<i class="fas fa-phone-alt"></i>';
+   document.querySelectorAll("a")[6].innerHTML='<i class="far fa-envelope"></i>';
   }
   else
   {document.querySelector("nav").classList.remove("backdrop-blur");
    document.querySelectorAll("img")[0].classList.remove("imagext");
    document.querySelectorAll("img")[1].classList.remove("imagetext");
-   document.querySelectorAll("a")[4].innerHTML='<i class="fas fa-phone-alt"></i> <span class="details">+91-7993538436</span>';
-   document.querySelectorAll("a")[5].innerHTML='<i class="far fa-envelope"></i><span class="details">averxdrugs@gmail.com</span>';
+   document.querySelectorAll("a")[0].classList.remove("gymbal");
+   document.querySelectorAll("a")[5].innerHTML='<i class="fas fa-phone-alt"></i> <span class="details">+91-7993538436</span>';
+   document.querySelectorAll("a")[6].innerHTML='<i class="far fa-envelope"></i><span class="details">averxdrugs@gmail.com</span>';
    document.querySelectorAll("ul")[1].classList.remove("symba");
-   document.querySelectorAll("a")[4].classList.remove("symbal");
    document.querySelectorAll("a")[5].classList.remove("symbal");
+   document.querySelectorAll("a")[6].classList.remove("symbal");
    document.querySelector("div").classList.remove("color");
-   $(".navlinks").css("color","black");
+
  }
 },{passive:true});
 //this is for the closing of nav bar

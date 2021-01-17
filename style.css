@@ -55,6 +55,8 @@ a {
   font-size: 88%;
   font-weight: 700
 }
+
+
 #loading
 {
   transition: 1s;
@@ -91,9 +93,16 @@ a {
   background-size: cover;
   overflow: hidden;
   background-attachment: fixed;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
-
+.second_write
+{
+  width: 100%;
+  padding-left: 40px;
+}
 .one p {
   color: #000
 }
@@ -104,54 +113,52 @@ a {
   background-size: cover;
   overflow: hidden;
   background-attachment: fixed;
-  image-rendering: auto
+  image-rendering: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slide2write {
-  position: relative;
-  top: 40%;
-  right: 20%;
+  width: 50%;
+  margin-left: 65px;
   font-size: 25px
 }
 
 .slide2write h1,
 .slide2write p {
-  padding: 0 23%;
   color: #fff
 }
 
 .slide2write p {
   color: #fff
 }
-
 #slide3 {
   height: 100vh;
   background-image: url(images/happy-girl-beagle-puppies-gray.webp);
   background-size: cover;
   background-attachment: fixed;
-  image-rendering: auto
+  image-rendering: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.first_write
+{
+  width: 100%;
+  padding-left: 40px;
+}
 .slide3write {
-  position: relative;
-  top: 39vh;
-  right: 25%;
+  width: 41%;
+  margin-left: 65px;
+  color: #000;
   font-size: 25px
-}
-
-.slide3write h1,
-.slide3write p {
-  padding: 0 30vw
-}
-
-.slide3write {
-  color: #000
 }
 
 .Aboutus {
   width: 100%;
   height: 700px;
-  background-color: #dfdeb3;
+  background-color: #f5f4f4;
   display: block;
   position: relative
 }
@@ -255,8 +262,8 @@ a {
   overflow: hidden;
   top: 150px;
   left: 10%;
-  width: 30%;
-  height: 480px;
+  width: 25%;
+  height: 402px;
   background-color: #000;
   display: block;
   box-shadow: 0 4px 8px 5px rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
@@ -297,8 +304,8 @@ a {
   overflow: hidden;
   top: 18%;
   right: 8%;
-  width: 30%;
-  height: 65%;
+  width: 26%;
+  height: 56%;
   background-color: #000;
   display: block;
   box-shadow: 0 4px 8px 5px rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
@@ -358,8 +365,9 @@ a {
 }
 
 .easteregg .overlay-content p {
+  font-family: 'Poppins', sans-serif;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   margin: 2rem;
   letter-spacing: 1px;
   line-height: 1.75rem
@@ -372,11 +380,47 @@ a {
   font-style: italic;
   margin-top: 1.25rem
 }
-
+.company_icons
+{
+  width: 100%;
+  height: 200px;
+  filter: opacity(1);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@supports ((-webkit-backdrop-filter:blur(2em)) or (backdrop-filter:blur(2em))) {
+  .company_icons {
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+  }
+}
+.c img
+{
+  transition: 0.3s;
+  width: 100px;
+  height: auto;
+  filter:opacity(1);
+}
+.c img:hover
+{
+  transition: 0.3s;
+  width: 120px;
+  height: auto;
+  filter:opacity(1);
+  filter: drop-shadow(1);
+}
 @media (max-width:576px) {
   .easteregg {
-    width: 300px;
+    width: 100%;
     height: 450px
+  }
+  .easteregg .overlay-content p
+  {
+   font-size: 0.8rem;
+   line-height:1.2rem;
   }
 }
 
@@ -450,7 +494,7 @@ a {
 
 .easteregg .pro {
   width: 100%;
-  height: 100%;
+  height: auto;
   background-color: #3ebdb7;
   color: #080808;
   display: flex;
@@ -539,7 +583,7 @@ a {
   margin: 145px 0 0 100px;
   width: 70%;
   height: 552px;
-  background-color: #dfdeb3;
+  background-color: #f1f6f9;
   display: block;
   border-radius: 10px;
   display: flex;
@@ -665,7 +709,7 @@ a {
 }
 #cred
 {
-  background: #71cfbd;
+  background: #28A780;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -710,10 +754,10 @@ a {
 {
   font-size: 35px;
 }
+
   nav {
     min-height: 10vh
   }
-
 }
 
 @media(max-width:1230px) {
@@ -834,7 +878,7 @@ a {
   }
   #video {
     height: 100vh;
-    background-attachment: scroll
+    background-attachment: scroll;
   }
 
   #slide2,
