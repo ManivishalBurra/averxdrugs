@@ -723,6 +723,11 @@ a {
 
 
 @media(max-width:900px) {
+
+  .slide3write
+  {
+    margin-left: 0;
+  }
   #slide3 {
     background-position: center
   }
@@ -819,7 +824,10 @@ a {
 }
 
 @media only screen and (min-width:100px) and (max-width:700px) {
-
+ .slide3write
+ {
+   margin-left: 0;
+ }
  #parallax
  {
    background-attachment: scroll;
@@ -1056,6 +1064,15 @@ a {
 }
 @media only screen and (max-width:500px) and (min-width:100px)
 {
+  .slide3write
+  {
+    margin-left: 0;
+    width: 100%;
+  }
+  .slide3write p
+  {
+    width: 75%;
+  }
   #parallax
  {
    background-attachment: scroll;
