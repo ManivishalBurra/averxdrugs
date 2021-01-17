@@ -755,9 +755,14 @@ a {
   font-size: 35px;
 }
 
+.credits p
+{
+  font-size: 0.6rem ;
+}
   nav {
     min-height: 10vh
   }
+
 }
 
 @media(max-width:1230px) {
@@ -821,6 +826,13 @@ a {
    background-size: contain;
    height: 50rem;
    background-color: black;
+ }
+ .c img
+ {
+   transition: 0.3s;
+   width: 75px;
+   height: auto;
+   filter:opacity(1);
  }
   .maps
   {

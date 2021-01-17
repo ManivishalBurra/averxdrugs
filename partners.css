@@ -21,16 +21,49 @@ body
 }
 #video {
   height: 100vh;
-  background-image: url('images/chimney-2823866_1920.jpg');
+  background-image: url('images/anne-nygard-vc-vPgGqAr4-unsplash.jpg');
   background-size: cover;
   overflow: hidden;
   background-attachment: fixed;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.one,.write
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .boo h1 {
-  font-size: 3vw;
+  font-size: 4vw;
   font-weight: bold;
-  color: #f56a79;
+  color:#32988d;
+}
+.heading
+{
+  display: flex;
+}
+.slide3write {
+  width: 100%;
+  color: #000;
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+form
+{
+  width: 100%;
+}
+.forum
+{
+  display: flex;
+}
+.one p {
+  color: #f5f4f4;
+  width: 40%;
 }
 @media only screen and (min-width:100px) and (max-width:700px)
 {
@@ -45,27 +78,22 @@ body
 
 .boo p {
   padding-right: 0;
-  font-size: 4vw
+  font-size: 4vw;
+  width: 75%;
 }
 
 }
 .slide3write {
-  position: relative;
-  top: 39vh;
-  right: 25%;
   font-size: 25px
 }
 
-.slide3write h1,
-.slide3write p {
-  padding: 0 30vw
-}
+
 
 .slide3write {
-  color: #000
+  color: #fff
 }
 .one p {
-  color: #000
+  color: #f8f1f1
 }
 .companypic
 {
