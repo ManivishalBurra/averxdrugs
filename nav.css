@@ -119,6 +119,9 @@
   #navbarSupportedContent {
     margin-right: 0;
 }
+#navigate_bar .gymbal {
+  margin-left:0;
+  }
 #logo{
   margin-left: 0;
 }
