@@ -23,7 +23,7 @@ window.addEventListener("scroll",function(){
    document.querySelectorAll("img")[1].classList.remove("imagetext");
    document.querySelectorAll("a")[0].classList.remove("gymbal");
    document.querySelectorAll("a")[5].innerHTML='<i class="fas fa-phone-alt"></i> <span class="details">+91-7993538436</span>';
-   document.querySelectorAll("a")[6].innerHTML='<i class="far fa-envelope"></i><span class="details">averxdrugs@gmail.com</span>';
+   document.querySelectorAll("a")[6].innerHTML='<i class="far fa-envelope"></i><span class="details"> averxdrugs@gmail.com</span>';
    document.querySelectorAll("ul")[1].classList.remove("symba");
    document.querySelectorAll("a")[5].classList.remove("symbal");
    document.querySelectorAll("a")[6].classList.remove("symbal");
