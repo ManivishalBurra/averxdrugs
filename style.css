@@ -425,6 +425,7 @@ a {
 }
 
 .rect1 {
+  overflow:hidden;
   width: 100%
 }
 
