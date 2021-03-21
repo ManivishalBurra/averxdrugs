@@ -945,6 +945,12 @@ a {
     margin: 0
   }
 }
+@media only screen and (max-width:500px) and (min-width:100px){
+.rect1{
+  height:49vh;
+  }
+
+}
 ::-webkit-scrollbar {
   width: 8px;
   background: #000
